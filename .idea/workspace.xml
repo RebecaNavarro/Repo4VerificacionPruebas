@@ -4,7 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a42be8e2-0633-40bd-b299-4c87194657ef" name="Changes" comment="" />
+    <list default="true" id="a42be8e2-0633-40bd-b299-4c87194657ef" name="Changes" comment="Commit de la tarea de crear tarea">
+      <change afterPath="$PROJECT_DIR$/src/test/java/activities/calc/MainScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/activities/contacts/ContactCreateForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/activities/contacts/ContactDetailScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/activities/contacts/ContactListScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/activities/contacts/SyncAlert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/activities/whenDo/WhenDoCreateForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/activities/whenDo/WhenDoDetailScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/activities/whenDo/WhenDoListScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/controls/AppiumControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/controls/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/controls/ComboBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/controls/Label.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/controls/TextBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/factoryDevices/Android.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/factoryDevices/AndroidCloud.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/factoryDevices/FactoryDevices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/factoryDevices/IDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/factoryDevices/Ios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/session/Session.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testSuite/calc/CalcTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testSuite/calc/CalcTestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testSuite/contacts/ContactTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testSuite/whenDo/WhenDoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,12 +41,25 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2oAuG4uRb1WhagnPj70kVh7yDxS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -29,14 +68,172 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.CalcTest.executor": "Run",
+    "Gradle.CalculatorTest.executor": "Run",
+    "Gradle.CalculatorTest.verifyAddition.executor": "Run",
+    "Gradle.ContactTest (1).executor": "Run",
+    "Gradle.ContactTest.executor": "Run",
+    "Gradle.WhenDoTest (1).executor": "Run",
+    "Gradle.WhenDoTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Tarea-WhenDo",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="activities.whenDo" />
+      <recent name="testSuite.whenDo" />
+      <recent name="testSuite.contacts" />
+      <recent name="basicAppium" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.WhenDoTest (1)">
+    <configuration name="CalcTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;testSuite.calc.CalcTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ContactTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;testSuite.contacts.ContactTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ContactTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;basicAppium.ContactTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="WhenDoTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;testSuite.whenDo.WhenDoTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="WhenDoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;basicAppium.WhenDoTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.WhenDoTest (1)" />
+        <item itemvalue="Gradle.ContactTest (1)" />
+        <item itemvalue="Gradle.CalcTest" />
+        <item itemvalue="Gradle.WhenDoTest" />
+        <item itemvalue="Gradle.ContactTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -45,11 +242,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730324604082</updated>
-      <workItem from="1730324605237" duration="10000" />
+      <workItem from="1730324605237" duration="5681000" />
+      <workItem from="1730407618684" duration="6950000" />
     </task>
+    <task id="LOCAL-00001" summary="Commit de todo lo avanzado 30/10">
+      <option name="closed" value="true" />
+      <created>1730328359530</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730328359530</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Commit de la tarea de crear tarea">
+      <option name="closed" value="true" />
+      <created>1730330941056</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730330941056</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit de todo lo avanzado 30/10" />
+    <MESSAGE value="Commit de la tarea de crear tarea" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit de la tarea de crear tarea" />
   </component>
 </project>
