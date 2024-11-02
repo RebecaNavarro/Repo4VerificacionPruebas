@@ -16,8 +16,8 @@ public class Android implements IDevice{
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("appium:deviceName","UPBv9");
         capabilities.setCapability("appium:platformVersion","9.0");
-        capabilities.setCapability("appium:appPackage","com.vrproductiveapps.whendo");
-        capabilities.setCapability("appium:appActivity","com.vrproductiveapps.whendo.ui.HomeActivity");
+        capabilities.setCapability("appium:appPackage","com.browserstack.demo.app");
+        capabilities.setCapability("appium:appActivity","host.exp.exponent.MainActivity");
         capabilities.setCapability("platformName","Android");
         capabilities.setCapability("appium:automationName","uiautomator2");
         AppiumDriver driver = null;

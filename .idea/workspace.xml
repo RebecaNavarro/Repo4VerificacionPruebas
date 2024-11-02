@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a42be8e2-0633-40bd-b299-4c87194657ef" name="Changes" comment="Commit de todo lo avanzado 31/10">
-      <change afterPath="$PROJECT_DIR$/src/test/java/activities/whenDo/DeleteAlert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testSuite/whenDo/WhenDoTestCRUD.java" afterDir="false" />
+    <list default="true" id="a42be8e2-0633-40bd-b299-4c87194657ef" name="Changes" comment="Commit tarea WhenDo CRUD">
+      <change afterPath="$PROJECT_DIR$/src/test/java/activities/demo/MainScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/activities/demo/MenuSection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/activities/demo/SignInForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testSuite/demo/DemoLoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/activities/whenDo/WhenDoCreateForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/activities/whenDo/WhenDoCreateForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/activities/whenDo/WhenDoDetailScreen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/activities/whenDo/WhenDoListScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/activities/whenDo/WhenDoListScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testSuite/whenDo/WhenDoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testSuite/whenDo/WhenDoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/factoryDevices/Android.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/factoryDevices/Android.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/factoryDevices/AndroidCloud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/factoryDevices/AndroidCloud.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +34,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Tarea-WhenDo" />
+        <entry key="$PROJECT_DIR$" value="Tarea-WhenDoCRUD" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,12 +55,14 @@
     "Gradle.CalculatorTest.verifyAddition.executor": "Run",
     "Gradle.ContactTest (1).executor": "Run",
     "Gradle.ContactTest.executor": "Run",
+    "Gradle.DemoLoginTest.executor": "Run",
+    "Gradle.DemoLoginTest.verifySignInLogOutDemo.executor": "Run",
     "Gradle.WhenDoTest (1).executor": "Run",
     "Gradle.WhenDoTest.executor": "Run",
     "Gradle.WhenDoTestCRUD.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Tarea-WhenDoCRUD",
+    "git-widget-placeholder": "Avance-1/11",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -72,37 +74,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="activities.demo" />
       <recent name="activities.whenDo" />
       <recent name="testSuite.whenDo" />
       <recent name="testSuite.contacts" />
       <recent name="basicAppium" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.WhenDoTestCRUD">
-    <configuration name="CalcTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;testSuite.calc.CalcTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.DemoLoginTest.verifySignInLogOutDemo">
     <configuration name="ContactTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -127,6 +106,54 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="DemoLoginTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;testSuite.demo.DemoLoginTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="DemoLoginTest.verifySignInLogOutDemo" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;testSuite.demo.DemoLoginTest.verifySignInLogOutDemo&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="WhenDoTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -141,30 +168,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;testSuite.whenDo.WhenDoTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="WhenDoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;basicAppium.WhenDoTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -201,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DemoLoginTest.verifySignInLogOutDemo" />
+        <item itemvalue="Gradle.DemoLoginTest" />
         <item itemvalue="Gradle.WhenDoTestCRUD" />
         <item itemvalue="Gradle.WhenDoTest (1)" />
         <item itemvalue="Gradle.ContactTest (1)" />
-        <item itemvalue="Gradle.CalcTest" />
-        <item itemvalue="Gradle.WhenDoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +229,9 @@
       <option name="presentableId" value="Default" />
       <updated>1730324604082</updated>
       <workItem from="1730324605237" duration="5681000" />
-      <workItem from="1730407618684" duration="8875000" />
+      <workItem from="1730407618684" duration="9251000" />
+      <workItem from="1730461682458" duration="71000" />
+      <workItem from="1730493507179" duration="6691000" />
     </task>
     <task id="LOCAL-00001" summary="Commit de todo lo avanzado 30/10">
       <option name="closed" value="true" />
@@ -252,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730417772323</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit tarea WhenDo CRUD">
+      <option name="closed" value="true" />
+      <created>1730419850159</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730419850159</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +275,7 @@
     <MESSAGE value="Commit de todo lo avanzado 30/10" />
     <MESSAGE value="Commit de la tarea de crear tarea" />
     <MESSAGE value="Commit de todo lo avanzado 31/10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit de todo lo avanzado 31/10" />
+    <MESSAGE value="Commit tarea WhenDo CRUD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit tarea WhenDo CRUD" />
   </component>
 </project>
