@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a42be8e2-0633-40bd-b299-4c87194657ef" name="Changes" comment="Commit tarea WhenDo CRUD">
-      <change afterPath="$PROJECT_DIR$/src/test/java/activities/demo/MainScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/activities/demo/MenuSection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/activities/demo/SignInForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testSuite/demo/DemoLoginTest.java" afterDir="false" />
+    <list default="true" id="a42be8e2-0633-40bd-b299-4c87194657ef" name="Changes" comment="Commit avance 1/11">
+      <change afterPath="$PROJECT_DIR$/src/test/java/activities/clock/MainScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/activities/clock/SetAlarm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testSuite/clock/AlarmTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/factoryDevices/Android.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/factoryDevices/Android.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/factoryDevices/AndroidCloud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/factoryDevices/AndroidCloud.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +32,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Tarea-WhenDoCRUD" />
+        <entry key="$PROJECT_DIR$" value="Avance-1/11" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,6 +48,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.AlarmTest.executor": "Run",
     "Gradle.CalcTest.executor": "Run",
     "Gradle.CalculatorTest.executor": "Run",
     "Gradle.CalculatorTest.verifyAddition.executor": "Run",
@@ -62,7 +61,7 @@
     "Gradle.WhenDoTestCRUD.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Avance-1/11",
+    "git-widget-placeholder": "TareaReloj",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -81,8 +80,8 @@
       <recent name="basicAppium" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DemoLoginTest.verifySignInLogOutDemo">
-    <configuration name="ContactTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.AlarmTest">
+    <configuration name="AlarmTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -95,7 +94,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;testSuite.contacts.ContactTest&quot;" />
+            <option value="&quot;testSuite.clock.AlarmTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -204,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AlarmTest" />
         <item itemvalue="Gradle.DemoLoginTest.verifySignInLogOutDemo" />
         <item itemvalue="Gradle.DemoLoginTest" />
         <item itemvalue="Gradle.WhenDoTestCRUD" />
         <item itemvalue="Gradle.WhenDoTest (1)" />
-        <item itemvalue="Gradle.ContactTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -232,6 +231,7 @@
       <workItem from="1730407618684" duration="9251000" />
       <workItem from="1730461682458" duration="71000" />
       <workItem from="1730493507179" duration="6691000" />
+      <workItem from="1730515437730" duration="2183000" />
     </task>
     <task id="LOCAL-00001" summary="Commit de todo lo avanzado 30/10">
       <option name="closed" value="true" />
@@ -265,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730419850159</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Commit avance 1/11">
+      <option name="closed" value="true" />
+      <created>1730515901350</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730515901350</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,6 +284,7 @@
     <MESSAGE value="Commit de la tarea de crear tarea" />
     <MESSAGE value="Commit de todo lo avanzado 31/10" />
     <MESSAGE value="Commit tarea WhenDo CRUD" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit tarea WhenDo CRUD" />
+    <MESSAGE value="Commit avance 1/11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit avance 1/11" />
   </component>
 </project>
